@@ -1,0 +1,13 @@
+.collection-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.collections {
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
