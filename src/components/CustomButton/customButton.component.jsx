@@ -1,7 +1,11 @@
 import "./customButton.styles.css";
 
-const CustomButton = () => {
-  return <button className="btn">Add Your First Collection</button>;
+const CustomButton = ({ onOpen }) => {
+  return (
+    <button onClick={onOpen} className="btn">
+      Add Your First Collection
+    </button>
+  );
 };
 
 export default CustomButton;
